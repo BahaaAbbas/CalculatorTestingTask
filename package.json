@@ -1,0 +1,22 @@
+{
+  "name": "calculatortestingtask",
+  "version": "1.0.0",
+  "description": "Calculator Testing Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
